@@ -1,0 +1,13 @@
+@import '_fonts.scss';
+
+$bg-color-primary: #333333;
+
+.main {
+  background: $bg-color-primary;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-family-name, Arial, Helvetica, sans-serif;
+}
